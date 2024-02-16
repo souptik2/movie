@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   async function fetchDetails(title) {
     const url =
-      "https://movieapi-s1wifw.5sc6y6-2.usa-e2.cloudhub.io/fetchdetail";
+      "https://movie-s1wifw.5sc6y6-2.usa-e2.cloudhub.io/fetchdetail";
     const payload = {
       method: "POST",
       headers: {
